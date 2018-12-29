@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Poslaju Shipping
  * Description: Poslaju Shipping Method for WooCommerce
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Bayu Permadi
  * License: GPL-3.0+
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
