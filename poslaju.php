@@ -253,8 +253,8 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                               } 
                         }
 
-                        else{
-                            echo "Your destination is out of our service"
+                        else {
+                            echo "Your destination is out of our service";
                         }
                         $total_ship_cost = $total_ship_cost + $cost;
                         
