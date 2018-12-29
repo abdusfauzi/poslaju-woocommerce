@@ -1,6 +1,6 @@
 {
 	"name": "abdusfauzi/poslaju-woocommerce",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Listens to a GitLab/Github webhook and run shell script everytime called.",
 	"keywords": ["wordpress"],
 	"license": "GPL2",
