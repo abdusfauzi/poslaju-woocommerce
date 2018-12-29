@@ -129,7 +129,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                         $vendor_id = get_post($post_id)->post_author;
                         $vendor_city = get_the_author_meta( '_vendor_city', $vendor_id );
                         //$weight = $weight + $_product->get_weight() * $values['quantity']; 
-                        $weight = $_product->get_weight() * intval( $values['quantity'] ); 
+                        $weight = floatval( $_product->get_weight() ) * intval( $values['quantity'] ); 
                         $weight = wc_get_weight( $weight, 'kg' );
 
                         // ZONE 1 //
